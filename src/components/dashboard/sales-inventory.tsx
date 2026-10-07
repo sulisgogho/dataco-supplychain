@@ -282,7 +282,7 @@ export function SalesInventory() {
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
                   labelStyle={{ color: '#64748b', fontWeight: 600, fontSize: '12px', marginBottom: '4px' }}
                   cursor={{ stroke: '#94a3b8', strokeWidth: 1, strokeDasharray: '4 4' }}
-                  formatter={(value: number, name: string) => [name === 'Revenue' ? `$${value}M` : `${value}k`, name]}
+                  formatter={(value: any, name: any) => [name === 'Revenue' ? `$${value}M` : `${value}k`, name]}
                 />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', fontWeight: 600, paddingTop: '10px' }} />
                 <Area yAxisId="left" type="monotone" dataKey="revenue" name="Revenue" stroke="#1E3A8A" strokeWidth={3} fillOpacity={1} fill="url(#colorRevenue)" />
@@ -335,7 +335,7 @@ export function SalesInventory() {
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
                   labelStyle={{ color: '#64748b', fontWeight: 600, fontSize: '12px', marginBottom: '4px' }}
                   cursor={{ fill: 'transparent' }}
-                  formatter={(value: number, name: string) => {
+                  formatter={(value: any, name: any) => {
                     if (name === 'Revenue') return [`$${(value / 1000).toFixed(0)}k`, name];
                     return [`${value.toFixed(1)}%`, name];
                   }}
@@ -373,7 +373,7 @@ export function SalesInventory() {
                   contentStyle={customTooltipStyle}
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
                   labelStyle={{ display: 'none' }}
-                  formatter={(val: number) => [`$${val}M`, 'Total Sales']}
+                  formatter={(val: any) => [`$${val}M`, 'Total Sales']}
                 />
                 <Bar dataKey="sales" fill="#0284c7" radius={[4, 4, 0, 0]} barSize={40} />
               </BarChart>
@@ -411,7 +411,7 @@ export function SalesInventory() {
                 <RechartsTooltip 
                   contentStyle={customTooltipStyle}
                   itemStyle={{ fontWeight: 700 }}
-                  formatter={(value: number) => [`$${value}M`, 'Revenue']}
+                  formatter={(value: any) => [`$${value}M`, 'Revenue']}
                 />
               </PieChart>
             </ResponsiveContainer>
@@ -455,7 +455,7 @@ export function SalesInventory() {
                   contentStyle={customTooltipStyle}
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
                   labelStyle={{ color: '#64748b', fontWeight: 600, fontSize: '12px', marginBottom: '4px' }}
-                  formatter={(value: number, name: string) => [`${value}%`, name]}
+                  formatter={(value: any, name: any) => [`${value}%`, name]}
                 />
                 <Legend iconType="circle" wrapperStyle={{ fontSize: '12px', fontWeight: 600, paddingTop: '10px' }} />
                 <ReferenceLine yAxisId="left" y={0} stroke="#cbd5e1" strokeDasharray="3 3" />
@@ -507,7 +507,7 @@ export function SalesInventory() {
                 <RechartsTooltip 
                   contentStyle={customTooltipStyle}
                   itemStyle={{ fontWeight: 700 }}
-                  formatter={(value: number) => [`$${value}M`, 'Revenue']}
+                  formatter={(value: any) => [`$${value}M`, 'Revenue']}
                 />
               </PieChart>
             </ResponsiveContainer>

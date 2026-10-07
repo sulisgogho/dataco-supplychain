@@ -535,7 +535,7 @@ export function RiskFraud() {
                             default: { outline: "none" },
                             hover: { fill: "#CBD5E1", outline: "none" },
                             pressed: { outline: "none" },
-                          }}
+                          } as any}
                         />
                       ))
                     }
@@ -580,7 +580,7 @@ export function RiskFraud() {
                   cursor={{ fill: '#f8fafc' }}
                   contentStyle={customTooltipStyle}
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
-                  formatter={(val: number) => [`${val} Attempts`, 'Fraud Attempts']}
+                  formatter={(val: any) => [`${val} Attempts`, 'Fraud Attempts']}
                 />
                 <Bar dataKey="attempts" fill="#EF4444" radius={[0, 4, 4, 0]} barSize={24} />
               </BarChart>

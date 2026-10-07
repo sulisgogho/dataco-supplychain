@@ -322,7 +322,7 @@ export function LogisticsDelivery() {
                   contentStyle={{ borderRadius: '12px', border: '1px solid #e2e8f0', boxShadow: '0 4px 20px -2px rgb(0 0 0 / 0.1)', backgroundColor: '#ffffff' }}
                   itemStyle={{ color: '#0f172a', fontWeight: 700 }}
                   labelStyle={{ display: 'none' }}
-                  formatter={(val: number, name: string) => [
+                  formatter={(val: any, name: any) => [
                     name === 'Order Volume' ? val.toLocaleString('en-US') : `${val}%`,
                     name
                   ]}
