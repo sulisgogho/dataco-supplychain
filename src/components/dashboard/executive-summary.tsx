@@ -421,15 +421,15 @@ export function ExecutiveSummary() {
                     dataKey="date" 
                     axisLine={false} 
                     tickLine={false} 
-                    tickFormatter={(value) => {
-                      const parts = value.split(' '); // ["01", "Jan", "2015"]
-                      if (!parts || parts.length < 3) return value;
+                    tickFormatter={(value: string) => {
+                      const parts = typeof value === 'string' ? value.split(' ') : [];
+                      if (!parts || parts.length < 3) return String(value).toUpperCase();
                       if (timeRange === 'All Time') {
-                        return `${parts[1]} '${parts[2].substring(2)}`; // e.g., "Jan '15"
+                        return `${parts[1]} '${parts[2].substring(2)}`.toUpperCase(); 
                       }
-                      return `${parts[0]} ${parts[1]}`; // e.g., "14 Jun" to avoid repeating months
+                      return `${parts[0]} ${parts[1]}`.toUpperCase();
                     }}
-                    tick={{fontSize: 10, fill: '#94a3b8', fontWeight: 600, textTransform: 'uppercase'}} 
+                    tick={{fontSize: 10, fill: '#94a3b8', fontWeight: 600}} 
                     dy={15} 
                     minTickGap={40}
                   />
@@ -484,7 +484,7 @@ export function ExecutiveSummary() {
                     contentStyle={{ borderRadius: '12px', border: '1px solid #e2e8f0', boxShadow: '0 4px 20px -2px rgb(0 0 0 / 0.1)', padding: '10px' }}
                     itemStyle={{ color: '#0f172a', fontWeight: 700, fontSize: '13px' }}
                     labelStyle={{ display: 'none' }}
-                    formatter={(value: number, name: string) => [`${value}%`, 'Late Delivery Risk']}
+                    formatter={(value: any) => [`${value}%`, 'Late Delivery Risk']}
                   />
                   <Bar dataKey="risk" fill="#EF4444" radius={[0, 4, 4, 0]}>
                     {highRiskData.map((entry, index) => (
@@ -519,8 +519,8 @@ export function ExecutiveSummary() {
                     contentStyle={{ borderRadius: '12px', border: '1px solid #e2e8f0', boxShadow: '0 4px 20px -2px rgb(0 0 0 / 0.1)', backgroundColor: '#ffffff' }}
                     itemStyle={{ color: '#0f172a', fontWeight: 700, fontSize: '12px' }}
                     labelStyle={{ display: 'none' }}
-                    formatter={(value: number, name: string) => {
-                      if (name === 'Revenue') return [`$${(value/1000).toLocaleString('en-US')}k`, name];
+                    formatter={(value: any, name: any) => {
+                      if (name === 'Revenue') return [`$${(Number(value)/1000).toLocaleString('en-US')}k`, name];
                       return [`${value}%`, 'Profit Margin'];
                     }}
                   />
