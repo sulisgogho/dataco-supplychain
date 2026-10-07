@@ -26,8 +26,6 @@ export default function RootLayout({
                 {children}
                 <footer className="mt-8 border-t border-slate-200 pt-6 pb-2 text-center shrink-0">
                   <p className="text-[13px] text-slate-400 max-w-5xl mx-auto leading-relaxed">
-                    Disclaimer: This dashboard and its dataset are constructed for portfolio demonstration and data science case study purposes only. The analytical models and metrics presented do not reflect the actual operational data or commercial performance of any specific enterprise. 
-                    <br className="my-1" />
                     © 2026 Sulistyowati Munawaroh Data Analytics. All rights reserved.
                   </p>
                 </footer>
