@@ -18,7 +18,8 @@ export function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="relative flex h-20 shrink-0 items-center gap-8 bg-white px-8 border-b border-slate-100">
+    <>
+      <header className="relative flex h-16 md:h-20 shrink-0 items-center gap-4 md:gap-8 bg-white px-4 md:px-8 border-b border-slate-100">
       <div className="flex items-center gap-2 font-bold text-slate-900 tracking-tight shrink-0">
         <div className="bg-[#FF6B00] p-1.5 rounded-lg">
           <Truck className="h-5 w-5 text-white" />
@@ -51,7 +52,7 @@ export function Header() {
       <div className="flex items-center justify-end shrink-0 ml-auto">
         <Link 
           href="/dataset"
-          className="flex items-center gap-2 h-10 px-4 rounded-full bg-slate-900 text-white text-[13px] font-bold hover:bg-slate-800 transition-colors shadow-sm"
+          className="flex items-center gap-2 h-9 md:h-10 px-3 md:px-4 rounded-full bg-slate-900 text-white text-[12px] md:text-[13px] font-bold hover:bg-slate-800 transition-colors shadow-sm"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-table">
             <path d="M12 3v18"/><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/>
@@ -61,5 +62,29 @@ export function Header() {
       </div>
 
     </header>
+
+      {/* Mobile Bottom Navigation */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-100 px-4 py-2 flex items-center justify-between pb-safe shadow-[0_-4px_12px_rgba(0,0,0,0.05)]">
+        {navigation.map((item) => {
+          const isActive = pathname === item.href
+          const Icon = item.icon
+          return (
+            <Link
+              key={item.name}
+              href={item.href}
+              className={cn(
+                "flex flex-col items-center gap-1 w-16",
+                isActive ? "text-slate-900" : "text-slate-400 hover:text-slate-900"
+              )}
+            >
+              <div className={cn("p-1.5 rounded-full transition-colors", isActive ? "bg-slate-900 text-white shadow-sm" : "bg-transparent")}>
+                <Icon className={cn("w-5 h-5", isActive ? "text-white" : "text-slate-400")} />
+              </div>
+              <span className={cn("text-[10px] font-bold", isActive ? "text-slate-900" : "text-slate-400")}>{item.name}</span>
+            </Link>
+          )
+        })}
+      </nav>
+    </>
   )
 }

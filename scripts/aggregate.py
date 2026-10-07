@@ -46,6 +46,42 @@ for month in month_order:
         'orders': int(monthly_trend.loc[month, 'Order Id'])
     })
 
+# Segment Aggregation by Year
+segment_sales = df.groupby(['Year', 'Customer Segment'])['Sales'].sum().reset_index()
+all_time_segments = df.groupby('Customer Segment')['Sales'].sum().reset_index()
+
+sales_by_year = {}
+
+# All Time
+all_time_total = all_time_segments['Sales'].sum()
+all_time_seg_list = []
+for _, row in all_time_segments.iterrows():
+    all_time_seg_list.append({
+        'name': row['Customer Segment'],
+        'revenue': float(row['Sales']),
+        'percentage': float((row['Sales'] / all_time_total) * 100) if all_time_total > 0 else 0
+    })
+sales_by_year['All Time'] = {
+    'totalRevenue': float(all_time_total),
+    'segments': all_time_seg_list
+}
+
+# By Year
+for year in df['Year'].dropna().unique():
+    year_df = segment_sales[segment_sales['Year'] == year]
+    year_total = year_df['Sales'].sum()
+    year_seg_list = []
+    for _, row in year_df.iterrows():
+        year_seg_list.append({
+            'name': row['Customer Segment'],
+            'revenue': float(row['Sales']),
+            'percentage': float((row['Sales'] / year_total) * 100) if year_total > 0 else 0
+        })
+    sales_by_year[str(int(year))] = {
+        'totalRevenue': float(year_total),
+        'segments': year_seg_list
+    }
+
 overview_data = {
     'summary': {
         'totalRevenue': total_revenue,
@@ -54,7 +90,8 @@ overview_data = {
         'fraudAttempts': fraud_attempts,
         'lateDeliveries': late_deliveries
     },
-    'monthlyTrend': overview_monthly
+    'monthlyTrend': overview_monthly,
+    'salesByYear': sales_by_year
 }
 with open(os.path.join(output_dir, 'overview.json'), 'w') as f:
     json.dump(overview_data, f, indent=2)

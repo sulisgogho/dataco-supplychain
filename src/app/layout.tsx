@@ -22,7 +22,7 @@ export default function RootLayout({
           <DashboardProvider>
             <div className="flex flex-col h-screen w-full relative">
               <Header />
-              <main className="flex flex-1 flex-col gap-6 px-8 py-6 overflow-auto scrollbar-hide">
+              <main className="flex flex-1 flex-col gap-4 md:gap-6 px-4 md:px-8 py-4 md:py-6 pb-24 md:pb-6 overflow-auto scrollbar-hide">
                 {children}
                 <footer className="mt-8 border-t border-slate-200 pt-6 pb-2 text-center shrink-0">
                   <p className="text-[13px] text-slate-400 max-w-5xl mx-auto leading-relaxed">

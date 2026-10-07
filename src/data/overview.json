@@ -67,5 +67,107 @@
       "revenue": 2599159.8680828228,
       "orders": 12764
     }
-  ]
+  ],
+  "salesByYear": {
+    "All Time": {
+      "totalRevenue": 36784735.01337984,
+      "segments": [
+        {
+          "name": "Consumer",
+          "revenue": 19095790.15517331,
+          "percentage": 51.91226781497142
+        },
+        {
+          "name": "Corporate",
+          "revenue": 11168406.84299083,
+          "percentage": 30.361525885475338
+        },
+        {
+          "name": "Home Office",
+          "revenue": 6520538.015215706,
+          "percentage": 17.726206299553247
+        }
+      ]
+    },
+    "2018": {
+      "totalRevenue": 331650.11515684,
+      "segments": [
+        {
+          "name": "Consumer",
+          "revenue": 162830.24255604998,
+          "percentage": 49.096995633198034
+        },
+        {
+          "name": "Corporate",
+          "revenue": 104730.19157976,
+          "percentage": 31.57851808078892
+        },
+        {
+          "name": "Home Office",
+          "revenue": 64089.681021029995,
+          "percentage": 19.324486286013038
+        }
+      ]
+    },
+    "2016": {
+      "totalRevenue": 12303817.324370025,
+      "segments": [
+        {
+          "name": "Consumer",
+          "revenue": 6453409.217931414,
+          "percentage": 52.45046352524451
+        },
+        {
+          "name": "Corporate",
+          "revenue": 3671523.602468809,
+          "percentage": 29.84052433220596
+        },
+        {
+          "name": "Home Office",
+          "revenue": 2178884.503969802,
+          "percentage": 17.709012142549543
+        }
+      ]
+    },
+    "2015": {
+      "totalRevenue": 12340831.430882763,
+      "segments": [
+        {
+          "name": "Consumer",
+          "revenue": 6374924.373824263,
+          "percentage": 51.65717082781879
+        },
+        {
+          "name": "Corporate",
+          "revenue": 3778905.3738729497,
+          "percentage": 30.621157051187737
+        },
+        {
+          "name": "Home Office",
+          "revenue": 2187001.683185552,
+          "percentage": 17.721672120993485
+        }
+      ]
+    },
+    "2017": {
+      "totalRevenue": 11808436.142970216,
+      "segments": [
+        {
+          "name": "Consumer",
+          "revenue": 6104626.320861582,
+          "percentage": 51.69716164740223
+        },
+        {
+          "name": "Corporate",
+          "revenue": 3613247.675069312,
+          "percentage": 30.59886704151207
+        },
+        {
+          "name": "Home Office",
+          "revenue": 2090562.147039322,
+          "percentage": 17.703971311085702
+        }
+      ]
+    }
+  }
 }

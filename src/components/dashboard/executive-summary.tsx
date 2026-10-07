@@ -98,6 +98,20 @@ export function ExecutiveSummary() {
     setSalesData(rawData)
   }, [filters, timeRange])
 
+  const currentSalesData = (overviewData as any).salesByYear?.[timeRange] || (overviewData as any).salesByYear?.['All Time'] || {
+    totalRevenue: overviewData.summary.totalRevenue,
+    segments: [
+      { name: 'Consumer', percentage: 51.5, revenue: 18940000 },
+      { name: 'Corporate', percentage: 30.2, revenue: 11100000 },
+      { name: 'Home Office', percentage: 18.3, revenue: 6730000 }
+    ]
+  };
+
+  const getSegment = (name: string) => currentSalesData.segments.find((s: any) => s.name === name) || { percentage: 0, revenue: 0 };
+  const consumerSeg = getSegment('Consumer');
+  const corporateSeg = getSegment('Corporate');
+  const homeOfficeSeg = getSegment('Home Office');
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 w-full">
       
@@ -352,10 +366,10 @@ export function ExecutiveSummary() {
 
           <div className="flex flex-col xl:flex-row gap-10">
             {/* Left side of the card: Big number & Breakdown */}
-            <div className="w-full xl:w-[30%] flex flex-col">
+              <div className="w-full xl:w-[30%] flex flex-col">
               <div className="mb-10">
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-[46px] leading-tight font-extrabold text-slate-900 tracking-tight">${(overviewData.summary.totalRevenue / 1000000).toFixed(2)}M</span>
+                  <span className="text-[46px] leading-tight font-extrabold text-slate-900 tracking-tight">${(currentSalesData.totalRevenue / 1000000).toFixed(2)}M</span>
                   <Info className="w-4 h-4 text-slate-400" />
                 </div>
                 <div className="flex items-center justify-between">
@@ -373,9 +387,9 @@ export function ExecutiveSummary() {
                     </div>
                   </div>
                   <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden mb-1.5 flex">
-                     <div className="bg-[#FF6B00] h-full w-[51.5%] rounded-full"></div>
+                     <div className="bg-[#FF6B00] h-full rounded-full transition-all duration-500" style={{ width: `${consumerSeg.percentage}%` }}></div>
                   </div>
-                  <div className="text-[11px] font-bold text-slate-500">51.5% · $18.94M Revenue</div>
+                  <div className="text-[11px] font-bold text-slate-500">{consumerSeg.percentage.toFixed(1)}% · ${(consumerSeg.revenue / 1000000).toFixed(2)}M Revenue</div>
                 </div>
                 
                 <div>
@@ -386,9 +400,9 @@ export function ExecutiveSummary() {
                     </div>
                   </div>
                   <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden mb-1.5 flex">
-                     <div className="bg-[#1E3A8A] h-full w-[30.2%] rounded-full"></div>
+                     <div className="bg-[#1E3A8A] h-full rounded-full transition-all duration-500" style={{ width: `${corporateSeg.percentage}%` }}></div>
                   </div>
-                  <div className="text-[11px] font-bold text-slate-500">30.2% · $11.10M Revenue</div>
+                  <div className="text-[11px] font-bold text-slate-500">{corporateSeg.percentage.toFixed(1)}% · ${(corporateSeg.revenue / 1000000).toFixed(2)}M Revenue</div>
                 </div>
                 
                 <div>
@@ -399,9 +413,9 @@ export function ExecutiveSummary() {
                     </div>
                   </div>
                   <div className="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden mb-1.5 flex">
-                     <div className="bg-slate-400 h-full w-[18.3%] rounded-full"></div>
+                     <div className="bg-slate-400 h-full rounded-full transition-all duration-500" style={{ width: `${homeOfficeSeg.percentage}%` }}></div>
                   </div>
-                  <div className="text-[11px] font-bold text-slate-500">18.3% · $6.73M Revenue</div>
+                  <div className="text-[11px] font-bold text-slate-500">{homeOfficeSeg.percentage.toFixed(1)}% · ${(homeOfficeSeg.revenue / 1000000).toFixed(2)}M Revenue</div>
                 </div>
               </div>
             </div>
