@@ -1,0 +1,912 @@
+{
+  "monthlyTrend": [
+    {
+      "name": "Jan",
+      "fraud": 381,
+      "total": 17979,
+      "late": 9827,
+      "fraudRate": 2.119138995494744
+    },
+    {
+      "name": "Feb",
+      "fraud": 370,
+      "total": 14529,
+      "late": 7926,
+      "fraudRate": 2.546630876178677
+    },
+    {
+      "name": "Mar",
+      "fraud": 327,
+      "total": 15919,
+      "late": 8796,
+      "fraudRate": 2.0541491299704755
+    },
+    {
+      "name": "Apr",
+      "fraud": 330,
+      "total": 15435,
+      "late": 8378,
+      "fraudRate": 2.1379980563654035
+    },
+    {
+      "name": "May",
+      "fraud": 408,
+      "total": 15976,
+      "late": 8745,
+      "fraudRate": 2.553830746119179
+    },
+    {
+      "name": "Jun",
+      "fraud": 367,
+      "total": 15139,
+      "late": 8300,
+      "fraudRate": 2.4242023911751107
+    },
+    {
+      "name": "Jul",
+      "fraud": 416,
+      "total": 15922,
+      "late": 8607,
+      "fraudRate": 2.612737093329984
+    },
+    {
+      "name": "Aug",
+      "fraud": 317,
+      "total": 15912,
+      "late": 8878,
+      "fraudRate": 1.9922071392659626
+    },
+    {
+      "name": "Sep",
+      "fraud": 330,
+      "total": 15489,
+      "late": 8565,
+      "fraudRate": 2.1305442572147975
+    },
+    {
+      "name": "Oct",
+      "fraud": 263,
+      "total": 12955,
+      "late": 7073,
+      "fraudRate": 2.030104206869934
+    },
+    {
+      "name": "Nov",
+      "fraud": 278,
+      "total": 12500,
+      "late": 6819,
+      "fraudRate": 2.2239999999999998
+    },
+    {
+      "name": "Dec",
+      "fraud": 275,
+      "total": 12764,
+      "late": 7063,
+      "fraudRate": 2.154497022876841
+    }
+  ],
+  "topRegions": [
+    {
+      "Order Region": "Western Europe",
+      "fraud_count": 705
+    },
+    {
+      "Order Region": "Central America",
+      "fraud_count": 631
+    },
+    {
+      "Order Region": "South America",
+      "fraud_count": 361
+    },
+    {
+      "Order Region": "West of USA ",
+      "fraud_count": 236
+    },
+    {
+      "Order Region": "Oceania",
+      "fraud_count": 229
+    }
+  ],
+  "threatMap": [
+    {
+      "lat": 40.62195587,
+      "lng": -111.9332733,
+      "city": "West Jordan",
+      "country": "EE. UU.",
+      "incidents": 19,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.73928452,
+      "lng": -73.99893189,
+      "city": "New York",
+      "country": "EE. UU.",
+      "incidents": 13,
+      "type": "Fraud"
+    },
+    {
+      "lat": 33.94717026,
+      "lng": -117.253624,
+      "city": "Moreno Valley",
+      "country": "EE. UU.",
+      "incidents": 13,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.22689438,
+      "lng": -66.37062836,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 12,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.95473099,
+      "lng": -75.20536804,
+      "city": "Philadelphia",
+      "country": "EE. UU.",
+      "incidents": 12,
+      "type": "Fraud"
+    },
+    {
+      "lat": 33.9031601,
+      "lng": -117.9898758,
+      "city": "La Mirada",
+      "country": "EE. UU.",
+      "incidents": 12,
+      "type": "Fraud"
+    },
+    {
+      "lat": 32.82715988,
+      "lng": -97.00611877,
+      "city": "Irving",
+      "country": "EE. UU.",
+      "incidents": 12,
+      "type": "Fraud"
+    },
+    {
+      "lat": 41.50205994,
+      "lng": -74.01177216,
+      "city": "Newburgh",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 34.06435013,
+      "lng": -118.437088,
+      "city": "Los Angeles",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 37.34420395,
+      "lng": -121.9884415,
+      "city": "Santa Clara",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 37.87754822,
+      "lng": -121.3725586,
+      "city": "Stockton",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.03102875,
+      "lng": -83.13726807,
+      "city": "Hilliard",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 29.42638016,
+      "lng": -98.52271271,
+      "city": "San Antonio",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 21.33713913,
+      "lng": -158.0259857,
+      "city": "Ewa Beach",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 45.35498428,
+      "lng": -122.6026993,
+      "city": "Oregon City",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 42.03330612,
+      "lng": -88.29245758,
+      "city": "Elgin",
+      "country": "EE. UU.",
+      "incidents": 10,
+      "type": "Fraud"
+    },
+    {
+      "lat": 42.90983582,
+      "lng": -85.68525696,
+      "city": "Wyoming",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.27961731,
+      "lng": -76.71038055,
+      "city": "Catonsville",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.64759827,
+      "lng": -73.95845795,
+      "city": "Brooklyn",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 33.81541824,
+      "lng": -118.1770935,
+      "city": "Cerritos",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.29764557,
+      "lng": -66.37055206,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 30.35012245,
+      "lng": -97.69873047,
+      "city": "Austin",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 25.83031082,
+      "lng": -80.27851105,
+      "city": "Hialeah",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 35.36254501,
+      "lng": -119.0186996,
+      "city": "Bakersfield",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.64605331,
+      "lng": -86.11961365,
+      "city": "Indianapolis",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 44.72552109,
+      "lng": -93.20613098,
+      "city": "Saint Paul",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 33.22548676,
+      "lng": -117.3070679,
+      "city": "Oceanside",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.25997925,
+      "lng": -66.37049866,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 26.20306206,
+      "lng": -98.30255127,
+      "city": "Mission",
+      "country": "EE. UU.",
+      "incidents": 9,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.73097992,
+      "lng": -74.22322846,
+      "city": "Irvington",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 38.50247574,
+      "lng": -121.4231873,
+      "city": "Sacramento",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.49591446,
+      "lng": -98.98998261,
+      "city": "Guayama",
+      "country": "Puerto Rico",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.74718475,
+      "lng": -73.87696838,
+      "city": "Elmhurst",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 35.06880951,
+      "lng": -89.9284668,
+      "city": "Memphis",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.21120834,
+      "lng": -66.37050629,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 45.54113007,
+      "lng": -122.7773743,
+      "city": "Portland",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 44.05007172,
+      "lng": -123.1093521,
+      "city": "Eugene",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.44484711,
+      "lng": -66.38641357,
+      "city": "Vega Baja",
+      "country": "Puerto Rico",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.2275734,
+      "lng": -66.04399109,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 47.67869949,
+      "lng": -122.3217621,
+      "city": "Seattle",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.70932007,
+      "lng": -104.8145828,
+      "city": "Aurora",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 37.32138825,
+      "lng": -122.0307388,
+      "city": "Cupertino",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 41.85883331,
+      "lng": -87.71582031,
+      "city": "Chicago",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 39.96376801,
+      "lng": -75.60626221,
+      "city": "West Chester",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 34.02019501,
+      "lng": -118.1562881,
+      "city": "Los Angeles",
+      "country": "EE. UU.",
+      "incidents": 8,
+      "type": "Fraud"
+    },
+    {
+      "lat": 32.84292221,
+      "lng": -97.22615814,
+      "city": "North Richland Hills",
+      "country": "EE. UU.",
+      "incidents": 7,
+      "type": "Fraud"
+    },
+    {
+      "lat": 34.41292954,
+      "lng": -119.8607178,
+      "city": "Goleta",
+      "country": "EE. UU.",
+      "incidents": 7,
+      "type": "Fraud"
+    },
+    {
+      "lat": 40.67771912,
+      "lng": -73.96311951,
+      "city": "Brooklyn",
+      "country": "EE. UU.",
+      "incidents": 7,
+      "type": "Fraud"
+    },
+    {
+      "lat": 37.24211121,
+      "lng": -80.42279053,
+      "city": "Blacksburg",
+      "country": "EE. UU.",
+      "incidents": 7,
+      "type": "Fraud"
+    },
+    {
+      "lat": 32.96281815,
+      "lng": -80.01170349,
+      "city": "Goose Creek",
+      "country": "EE. UU.",
+      "incidents": 7,
+      "type": "Fraud"
+    },
+    {
+      "lat": 18.38011932,
+      "lng": -66.18312836,
+      "city": "Bayamon",
+      "country": "Puerto Rico",
+      "incidents": 161,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 36.91083145,
+      "lng": -76.12958527,
+      "city": "Virginia Beach",
+      "country": "EE. UU.",
+      "incidents": 157,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 26.0984993,
+      "lng": -80.27095032,
+      "city": "Fort Lauderdale",
+      "country": "EE. UU.",
+      "incidents": 152,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.04647064,
+      "lng": -117.2896729,
+      "city": "Encinitas",
+      "country": "EE. UU.",
+      "incidents": 149,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 26.21472931,
+      "lng": -80.23004913,
+      "city": "Pompano Beach",
+      "country": "EE. UU.",
+      "incidents": 130,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 26.140728,
+      "lng": -97.66805267,
+      "city": "San Benito",
+      "country": "EE. UU.",
+      "incidents": 127,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 18.1501503,
+      "lng": -65.82595062,
+      "city": "Humacao",
+      "country": "Puerto Rico",
+      "incidents": 117,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.62104797,
+      "lng": -117.6759186,
+      "city": "Mission Viejo",
+      "country": "EE. UU.",
+      "incidents": 111,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 35.06275177,
+      "lng": -79.00574493,
+      "city": "Fayetteville",
+      "country": "EE. UU.",
+      "incidents": 108,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 41.50205994,
+      "lng": -74.01177216,
+      "city": "Newburgh",
+      "country": "EE. UU.",
+      "incidents": 107,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 18.29652023,
+      "lng": -66.04867554,
+      "city": "Caguas",
+      "country": "Puerto Rico",
+      "incidents": 106,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.64571381,
+      "lng": -73.8972168,
+      "city": "Brooklyn",
+      "country": "EE. UU.",
+      "incidents": 105,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 32.75856018,
+      "lng": -117.0881882,
+      "city": "San Diego",
+      "country": "EE. UU.",
+      "incidents": 105,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 39.98654556,
+      "lng": -75.1084671,
+      "city": "Philadelphia",
+      "country": "EE. UU.",
+      "incidents": 104,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.1901207,
+      "lng": -105.1010666,
+      "city": "Longmont",
+      "country": "EE. UU.",
+      "incidents": 103,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.64781952,
+      "lng": -112.0518799,
+      "city": "Phoenix",
+      "country": "EE. UU.",
+      "incidents": 103,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.40329361,
+      "lng": -111.9140549,
+      "city": "Tempe",
+      "country": "EE. UU.",
+      "incidents": 99,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 35.18754196,
+      "lng": -101.8676224,
+      "city": "Amarillo",
+      "country": "EE. UU.",
+      "incidents": 99,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 39.69681549,
+      "lng": -104.8411789,
+      "city": "Aurora",
+      "country": "EE. UU.",
+      "incidents": 98,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 32.8013916,
+      "lng": -97.3302536,
+      "city": "Fort Worth",
+      "country": "EE. UU.",
+      "incidents": 98,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 43.18824005,
+      "lng": -77.56706238,
+      "city": "Rochester",
+      "country": "EE. UU.",
+      "incidents": 97,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 44.07599258,
+      "lng": -120.9686584,
+      "city": "Bend",
+      "country": "EE. UU.",
+      "incidents": 96,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 26.19762421,
+      "lng": -98.19145203,
+      "city": "Pharr",
+      "country": "EE. UU.",
+      "incidents": 96,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 44.0263443,
+      "lng": -123.0935287,
+      "city": "Eugene",
+      "country": "EE. UU.",
+      "incidents": 95,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.70602036,
+      "lng": -74.08685303,
+      "city": "Jersey City",
+      "country": "EE. UU.",
+      "incidents": 94,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 18.43013001,
+      "lng": -66.48731232,
+      "city": "Manati",
+      "country": "Puerto Rico",
+      "incidents": 92,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 37.69598389,
+      "lng": -122.4800415,
+      "city": "Daly City",
+      "country": "EE. UU.",
+      "incidents": 92,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.65486527,
+      "lng": -73.58707428,
+      "city": "Freeport",
+      "country": "EE. UU.",
+      "incidents": 92,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.82476044,
+      "lng": -73.94992065,
+      "city": "New York",
+      "country": "EE. UU.",
+      "incidents": 91,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 34.26791382,
+      "lng": -118.6712112,
+      "city": "Simi Valley",
+      "country": "EE. UU.",
+      "incidents": 91,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.86329651,
+      "lng": -117.9716263,
+      "city": "Fullerton",
+      "country": "EE. UU.",
+      "incidents": 91,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 28.10211754,
+      "lng": -82.51211548,
+      "city": "Tampa",
+      "country": "EE. UU.",
+      "incidents": 90,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.94717026,
+      "lng": -117.253624,
+      "city": "Moreno Valley",
+      "country": "EE. UU.",
+      "incidents": 89,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.98547363,
+      "lng": -118.3382416,
+      "city": "Los Angeles",
+      "country": "EE. UU.",
+      "incidents": 88,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 47.39371109,
+      "lng": -122.2228317,
+      "city": "Kent",
+      "country": "EE. UU.",
+      "incidents": 87,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 42.03330612,
+      "lng": -88.29245758,
+      "city": "Elgin",
+      "country": "EE. UU.",
+      "incidents": 87,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 39.92321014,
+      "lng": -75.16308594,
+      "city": "Philadelphia",
+      "country": "EE. UU.",
+      "incidents": 87,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 42.42877197,
+      "lng": -82.98252869,
+      "city": "Detroit",
+      "country": "EE. UU.",
+      "incidents": 87,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 32.96593094,
+      "lng": -96.84902191,
+      "city": "Carrollton",
+      "country": "EE. UU.",
+      "incidents": 86,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 41.89396668,
+      "lng": -88.09660339,
+      "city": "Carol Stream",
+      "country": "EE. UU.",
+      "incidents": 86,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 26.15128136,
+      "lng": -80.21017456,
+      "city": "Fort Lauderdale",
+      "country": "EE. UU.",
+      "incidents": 86,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 43.21662521,
+      "lng": -75.45603943,
+      "city": "Rome",
+      "country": "EE. UU.",
+      "incidents": 84,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 18.20005035,
+      "lng": -67.14024353,
+      "city": "Mayaguez",
+      "country": "Puerto Rico",
+      "incidents": 83,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 33.97929382,
+      "lng": -118.289093,
+      "city": "Los Angeles",
+      "country": "EE. UU.",
+      "incidents": 83,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 39.95473099,
+      "lng": -75.20536804,
+      "city": "Philadelphia",
+      "country": "EE. UU.",
+      "incidents": 82,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 39.49591446,
+      "lng": -98.98998261,
+      "city": "Aurora",
+      "country": "EE. UU.",
+      "incidents": 82,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 40.79811859,
+      "lng": -73.96691895,
+      "city": "New York",
+      "country": "EE. UU.",
+      "incidents": 82,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 42.365345,
+      "lng": -87.83589935,
+      "city": "Waukegan",
+      "country": "EE. UU.",
+      "incidents": 82,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 21.4479599,
+      "lng": -158.016037,
+      "city": "Mililani",
+      "country": "EE. UU.",
+      "incidents": 82,
+      "type": "Late Risk"
+    },
+    {
+      "lat": 28.55625916,
+      "lng": -81.27587128,
+      "city": "Orlando",
+      "country": "EE. UU.",
+      "incidents": 81,
+      "type": "Late Risk"
+    }
+  ]
+}

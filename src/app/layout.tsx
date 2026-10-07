@@ -1,0 +1,40 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { Header } from "@/components/layout/header";
+import { DashboardProvider } from "@/components/dashboard-provider";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "DataCo Supply Chain Dashboard",
+  description: "Enterprise Logistics & Supply Chain Control Tower",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} bg-slate-50 text-slate-900 overflow-hidden`} suppressHydrationWarning>
+          <DashboardProvider>
+            <div className="flex flex-col h-screen w-full relative">
+              <Header />
+              <main className="flex flex-1 flex-col gap-6 px-8 py-6 overflow-auto scrollbar-hide">
+                {children}
+                <footer className="mt-8 border-t border-slate-200 pt-6 pb-2 text-center shrink-0">
+                  <p className="text-[13px] text-slate-400 max-w-5xl mx-auto leading-relaxed">
+                    Disclaimer: This dashboard and its dataset are constructed for portfolio demonstration and data science case study purposes only. The analytical models and metrics presented do not reflect the actual operational data or commercial performance of any specific enterprise. 
+                    <br className="my-1" />
+                    © 2026 Sulistyowati Munawaroh Data Analytics. All rights reserved.
+                  </p>
+                </footer>
+              </main>
+            </div>
+          </DashboardProvider>
+      </body>
+    </html>
+  );
+}

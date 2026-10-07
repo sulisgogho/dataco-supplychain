@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "totalRevenue": 36784735.01337984,
+    "totalOrders": 180519,
+    "avgProfitMargin": 10.78410099354382,
+    "fraudAttempts": 4062,
+    "lateDeliveries": 98977
+  },
+  "monthlyTrend": [
+    {
+      "name": "Jan",
+      "revenue": 3459246.466002137,
+      "orders": 17979
+    },
+    {
+      "name": "Feb",
+      "revenue": 2888087.645983805,
+      "orders": 14529
+    },
+    {
+      "name": "Mar",
+      "revenue": 3125111.592217587,
+      "orders": 15919
+    },
+    {
+      "name": "Apr",
+      "revenue": 3053996.480470997,
+      "orders": 15435
+    },
+    {
+      "name": "May",
+      "revenue": 3185363.962771893,
+      "orders": 15976
+    },
+    {
+      "name": "Jun",
+      "revenue": 3059152.210147854,
+      "orders": 15139
+    },
+    {
+      "name": "Jul",
+      "revenue": 3188170.171937122,
+      "orders": 15922
+    },
+    {
+      "name": "Aug",
+      "revenue": 3187032.113009184,
+      "orders": 15912
+    },
+    {
+      "name": "Sep",
+      "revenue": 3164510.7475357368,
+      "orders": 15489
+    },
+    {
+      "name": "Oct",
+      "revenue": 3171278.989860352,
+      "orders": 12955
+    },
+    {
+      "name": "Nov",
+      "revenue": 2703624.765360355,
+      "orders": 12500
+    },
+    {
+      "name": "Dec",
+      "revenue": 2599159.8680828228,
+      "orders": 12764
+    }
+  ]
+}

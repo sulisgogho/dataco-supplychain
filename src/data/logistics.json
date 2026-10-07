@@ -1,0 +1,1297 @@
+{
+  "shippingModes": [
+    {
+      "name": "Standard Class",
+      "value": 107752
+    },
+    {
+      "name": "Second Class",
+      "value": 35216
+    },
+    {
+      "name": "First Class",
+      "value": 27814
+    },
+    {
+      "name": "Same Day",
+      "value": 9737
+    }
+  ],
+  "deliveryStatus": [
+    {
+      "name": "Late delivery",
+      "value": 98977
+    },
+    {
+      "name": "Advance shipping",
+      "value": 41592
+    },
+    {
+      "name": "Shipping on time",
+      "value": 32196
+    },
+    {
+      "name": "Shipping canceled",
+      "value": 7754
+    }
+  ],
+  "topRegions": [
+    {
+      "Order Region": "Central Africa",
+      "total_orders": 1677,
+      "late_orders": 972,
+      "late_rate": 58.0
+    },
+    {
+      "Order Region": "South Asia",
+      "total_orders": 7731,
+      "late_orders": 4350,
+      "late_rate": 56.3
+    },
+    {
+      "Order Region": "East Africa",
+      "total_orders": 1852,
+      "late_orders": 1036,
+      "late_rate": 55.9
+    },
+    {
+      "Order Region": "South of  USA ",
+      "total_orders": 4045,
+      "late_orders": 2256,
+      "late_rate": 55.8
+    },
+    {
+      "Order Region": "Western Europe",
+      "total_orders": 27109,
+      "late_orders": 15140,
+      "late_rate": 55.8
+    }
+  ],
+  "monthlyPerformance": [
+    {
+      "name": "Jan",
+      "onTime": 3300,
+      "late": 9827,
+      "advance": 4162
+    },
+    {
+      "name": "Feb",
+      "onTime": 2570,
+      "late": 7926,
+      "advance": 3349
+    },
+    {
+      "name": "Mar",
+      "onTime": 2778,
+      "late": 8796,
+      "advance": 3719
+    },
+    {
+      "name": "Apr",
+      "onTime": 2790,
+      "late": 8378,
+      "advance": 3607
+    },
+    {
+      "name": "May",
+      "onTime": 2884,
+      "late": 8745,
+      "advance": 3537
+    },
+    {
+      "name": "Jun",
+      "onTime": 2672,
+      "late": 8300,
+      "advance": 3510
+    },
+    {
+      "name": "Jul",
+      "onTime": 2865,
+      "late": 8607,
+      "advance": 3698
+    },
+    {
+      "name": "Aug",
+      "onTime": 2743,
+      "late": 8878,
+      "advance": 3684
+    },
+    {
+      "name": "Sep",
+      "onTime": 2709,
+      "late": 8565,
+      "advance": 3554
+    },
+    {
+      "name": "Oct",
+      "onTime": 2395,
+      "late": 7073,
+      "advance": 2980
+    },
+    {
+      "name": "Nov",
+      "onTime": 2238,
+      "late": 6819,
+      "advance": 2875
+    },
+    {
+      "name": "Dec",
+      "onTime": 2252,
+      "late": 7063,
+      "advance": 2917
+    }
+  ],
+  "topCanceledProducts": [
+    {
+      "Product Name": "Perfect Fitness Perfect Rip Deck",
+      "canceled_count": 477,
+      "lost_revenue": 85785.70240832001
+    },
+    {
+      "Product Name": "Nike Men's CJ Elite 2 TD Football Cleat",
+      "canceled_count": 467,
+      "lost_revenue": 60705.332568499995
+    },
+    {
+      "Product Name": "Nike Men's Dri-FIT Victory Golf Polo",
+      "canceled_count": 438,
+      "lost_revenue": 65750.0
+    }
+  ],
+  "weeklyPerformance": [
+    {
+      "date": "04 Jan 2015",
+      "month": "Jan",
+      "year": "2015",
+      "late": 360,
+      "total": 692
+    },
+    {
+      "date": "11 Jan 2015",
+      "month": "Jan",
+      "year": "2015",
+      "late": 613,
+      "total": 1163
+    },
+    {
+      "date": "18 Jan 2015",
+      "month": "Jan",
+      "year": "2015",
+      "late": 666,
+      "total": 1208
+    },
+    {
+      "date": "25 Jan 2015",
+      "month": "Jan",
+      "year": "2015",
+      "late": 648,
+      "total": 1205
+    },
+    {
+      "date": "01 Feb 2015",
+      "month": "Feb",
+      "year": "2015",
+      "late": 688,
+      "total": 1235
+    },
+    {
+      "date": "08 Feb 2015",
+      "month": "Feb",
+      "year": "2015",
+      "late": 665,
+      "total": 1193
+    },
+    {
+      "date": "15 Feb 2015",
+      "month": "Feb",
+      "year": "2015",
+      "late": 665,
+      "total": 1151
+    },
+    {
+      "date": "22 Feb 2015",
+      "month": "Feb",
+      "year": "2015",
+      "late": 612,
+      "total": 1188
+    },
+    {
+      "date": "01 Mar 2015",
+      "month": "Mar",
+      "year": "2015",
+      "late": 680,
+      "total": 1214
+    },
+    {
+      "date": "08 Mar 2015",
+      "month": "Mar",
+      "year": "2015",
+      "late": 695,
+      "total": 1256
+    },
+    {
+      "date": "15 Mar 2015",
+      "month": "Mar",
+      "year": "2015",
+      "late": 669,
+      "total": 1173
+    },
+    {
+      "date": "22 Mar 2015",
+      "month": "Mar",
+      "year": "2015",
+      "late": 600,
+      "total": 1170
+    },
+    {
+      "date": "29 Mar 2015",
+      "month": "Mar",
+      "year": "2015",
+      "late": 663,
+      "total": 1178
+    },
+    {
+      "date": "05 Apr 2015",
+      "month": "Apr",
+      "year": "2015",
+      "late": 609,
+      "total": 1248
+    },
+    {
+      "date": "12 Apr 2015",
+      "month": "Apr",
+      "year": "2015",
+      "late": 686,
+      "total": 1229
+    },
+    {
+      "date": "19 Apr 2015",
+      "month": "Apr",
+      "year": "2015",
+      "late": 661,
+      "total": 1228
+    },
+    {
+      "date": "26 Apr 2015",
+      "month": "Apr",
+      "year": "2015",
+      "late": 605,
+      "total": 1130
+    },
+    {
+      "date": "03 May 2015",
+      "month": "May",
+      "year": "2015",
+      "late": 675,
+      "total": 1184
+    },
+    {
+      "date": "10 May 2015",
+      "month": "May",
+      "year": "2015",
+      "late": 655,
+      "total": 1170
+    },
+    {
+      "date": "17 May 2015",
+      "month": "May",
+      "year": "2015",
+      "late": 630,
+      "total": 1204
+    },
+    {
+      "date": "24 May 2015",
+      "month": "May",
+      "year": "2015",
+      "late": 695,
+      "total": 1206
+    },
+    {
+      "date": "31 May 2015",
+      "month": "May",
+      "year": "2015",
+      "late": 681,
+      "total": 1271
+    },
+    {
+      "date": "07 Jun 2015",
+      "month": "Jun",
+      "year": "2015",
+      "late": 677,
+      "total": 1187
+    },
+    {
+      "date": "14 Jun 2015",
+      "month": "Jun",
+      "year": "2015",
+      "late": 640,
+      "total": 1182
+    },
+    {
+      "date": "21 Jun 2015",
+      "month": "Jun",
+      "year": "2015",
+      "late": 645,
+      "total": 1207
+    },
+    {
+      "date": "28 Jun 2015",
+      "month": "Jun",
+      "year": "2015",
+      "late": 614,
+      "total": 1166
+    },
+    {
+      "date": "05 Jul 2015",
+      "month": "Jul",
+      "year": "2015",
+      "late": 684,
+      "total": 1243
+    },
+    {
+      "date": "12 Jul 2015",
+      "month": "Jul",
+      "year": "2015",
+      "late": 699,
+      "total": 1203
+    },
+    {
+      "date": "19 Jul 2015",
+      "month": "Jul",
+      "year": "2015",
+      "late": 701,
+      "total": 1244
+    },
+    {
+      "date": "26 Jul 2015",
+      "month": "Jul",
+      "year": "2015",
+      "late": 629,
+      "total": 1171
+    },
+    {
+      "date": "02 Aug 2015",
+      "month": "Aug",
+      "year": "2015",
+      "late": 620,
+      "total": 1180
+    },
+    {
+      "date": "09 Aug 2015",
+      "month": "Aug",
+      "year": "2015",
+      "late": 665,
+      "total": 1189
+    },
+    {
+      "date": "16 Aug 2015",
+      "month": "Aug",
+      "year": "2015",
+      "late": 663,
+      "total": 1181
+    },
+    {
+      "date": "23 Aug 2015",
+      "month": "Aug",
+      "year": "2015",
+      "late": 660,
+      "total": 1167
+    },
+    {
+      "date": "30 Aug 2015",
+      "month": "Aug",
+      "year": "2015",
+      "late": 648,
+      "total": 1205
+    },
+    {
+      "date": "06 Sep 2015",
+      "month": "Sep",
+      "year": "2015",
+      "late": 714,
+      "total": 1242
+    },
+    {
+      "date": "13 Sep 2015",
+      "month": "Sep",
+      "year": "2015",
+      "late": 615,
+      "total": 1180
+    },
+    {
+      "date": "20 Sep 2015",
+      "month": "Sep",
+      "year": "2015",
+      "late": 693,
+      "total": 1178
+    },
+    {
+      "date": "27 Sep 2015",
+      "month": "Sep",
+      "year": "2015",
+      "late": 723,
+      "total": 1220
+    },
+    {
+      "date": "04 Oct 2015",
+      "month": "Oct",
+      "year": "2015",
+      "late": 655,
+      "total": 1207
+    },
+    {
+      "date": "11 Oct 2015",
+      "month": "Oct",
+      "year": "2015",
+      "late": 611,
+      "total": 1181
+    },
+    {
+      "date": "18 Oct 2015",
+      "month": "Oct",
+      "year": "2015",
+      "late": 719,
+      "total": 1201
+    },
+    {
+      "date": "25 Oct 2015",
+      "month": "Oct",
+      "year": "2015",
+      "late": 630,
+      "total": 1138
+    },
+    {
+      "date": "01 Nov 2015",
+      "month": "Nov",
+      "year": "2015",
+      "late": 640,
+      "total": 1233
+    },
+    {
+      "date": "08 Nov 2015",
+      "month": "Nov",
+      "year": "2015",
+      "late": 718,
+      "total": 1252
+    },
+    {
+      "date": "15 Nov 2015",
+      "month": "Nov",
+      "year": "2015",
+      "late": 624,
+      "total": 1200
+    },
+    {
+      "date": "22 Nov 2015",
+      "month": "Nov",
+      "year": "2015",
+      "late": 683,
+      "total": 1247
+    },
+    {
+      "date": "29 Nov 2015",
+      "month": "Nov",
+      "year": "2015",
+      "late": 655,
+      "total": 1196
+    },
+    {
+      "date": "06 Dec 2015",
+      "month": "Dec",
+      "year": "2015",
+      "late": 667,
+      "total": 1222
+    },
+    {
+      "date": "13 Dec 2015",
+      "month": "Dec",
+      "year": "2015",
+      "late": 644,
+      "total": 1166
+    },
+    {
+      "date": "20 Dec 2015",
+      "month": "Dec",
+      "year": "2015",
+      "late": 621,
+      "total": 1181
+    },
+    {
+      "date": "27 Dec 2015",
+      "month": "Dec",
+      "year": "2015",
+      "late": 707,
+      "total": 1284
+    },
+    {
+      "date": "03 Jan 2016",
+      "month": "Jan",
+      "year": "2016",
+      "late": 693,
+      "total": 1234
+    },
+    {
+      "date": "10 Jan 2016",
+      "month": "Jan",
+      "year": "2016",
+      "late": 651,
+      "total": 1149
+    },
+    {
+      "date": "17 Jan 2016",
+      "month": "Jan",
+      "year": "2016",
+      "late": 630,
+      "total": 1174
+    },
+    {
+      "date": "24 Jan 2016",
+      "month": "Jan",
+      "year": "2016",
+      "late": 718,
+      "total": 1229
+    },
+    {
+      "date": "31 Jan 2016",
+      "month": "Jan",
+      "year": "2016",
+      "late": 650,
+      "total": 1232
+    },
+    {
+      "date": "07 Feb 2016",
+      "month": "Feb",
+      "year": "2016",
+      "late": 654,
+      "total": 1156
+    },
+    {
+      "date": "14 Feb 2016",
+      "month": "Feb",
+      "year": "2016",
+      "late": 603,
+      "total": 1144
+    },
+    {
+      "date": "21 Feb 2016",
+      "month": "Feb",
+      "year": "2016",
+      "late": 662,
+      "total": 1225
+    },
+    {
+      "date": "28 Feb 2016",
+      "month": "Feb",
+      "year": "2016",
+      "late": 634,
+      "total": 1184
+    },
+    {
+      "date": "06 Mar 2016",
+      "month": "Mar",
+      "year": "2016",
+      "late": 650,
+      "total": 1209
+    },
+    {
+      "date": "13 Mar 2016",
+      "month": "Mar",
+      "year": "2016",
+      "late": 679,
+      "total": 1142
+    },
+    {
+      "date": "20 Mar 2016",
+      "month": "Mar",
+      "year": "2016",
+      "late": 634,
+      "total": 1188
+    },
+    {
+      "date": "27 Mar 2016",
+      "month": "Mar",
+      "year": "2016",
+      "late": 625,
+      "total": 1178
+    },
+    {
+      "date": "03 Apr 2016",
+      "month": "Apr",
+      "year": "2016",
+      "late": 705,
+      "total": 1196
+    },
+    {
+      "date": "10 Apr 2016",
+      "month": "Apr",
+      "year": "2016",
+      "late": 611,
+      "total": 1194
+    },
+    {
+      "date": "17 Apr 2016",
+      "month": "Apr",
+      "year": "2016",
+      "late": 687,
+      "total": 1240
+    },
+    {
+      "date": "24 Apr 2016",
+      "month": "Apr",
+      "year": "2016",
+      "late": 675,
+      "total": 1229
+    },
+    {
+      "date": "01 May 2016",
+      "month": "May",
+      "year": "2016",
+      "late": 665,
+      "total": 1082
+    },
+    {
+      "date": "08 May 2016",
+      "month": "May",
+      "year": "2016",
+      "late": 592,
+      "total": 1139
+    },
+    {
+      "date": "15 May 2016",
+      "month": "May",
+      "year": "2016",
+      "late": 670,
+      "total": 1261
+    },
+    {
+      "date": "22 May 2016",
+      "month": "May",
+      "year": "2016",
+      "late": 647,
+      "total": 1206
+    },
+    {
+      "date": "29 May 2016",
+      "month": "May",
+      "year": "2016",
+      "late": 704,
+      "total": 1166
+    },
+    {
+      "date": "05 Jun 2016",
+      "month": "Jun",
+      "year": "2016",
+      "late": 739,
+      "total": 1195
+    },
+    {
+      "date": "12 Jun 2016",
+      "month": "Jun",
+      "year": "2016",
+      "late": 686,
+      "total": 1183
+    },
+    {
+      "date": "19 Jun 2016",
+      "month": "Jun",
+      "year": "2016",
+      "late": 637,
+      "total": 1150
+    },
+    {
+      "date": "26 Jun 2016",
+      "month": "Jun",
+      "year": "2016",
+      "late": 647,
+      "total": 1215
+    },
+    {
+      "date": "03 Jul 2016",
+      "month": "Jul",
+      "year": "2016",
+      "late": 646,
+      "total": 1200
+    },
+    {
+      "date": "10 Jul 2016",
+      "month": "Jul",
+      "year": "2016",
+      "late": 661,
+      "total": 1199
+    },
+    {
+      "date": "17 Jul 2016",
+      "month": "Jul",
+      "year": "2016",
+      "late": 596,
+      "total": 1204
+    },
+    {
+      "date": "24 Jul 2016",
+      "month": "Jul",
+      "year": "2016",
+      "late": 591,
+      "total": 1193
+    },
+    {
+      "date": "31 Jul 2016",
+      "month": "Jul",
+      "year": "2016",
+      "late": 649,
+      "total": 1184
+    },
+    {
+      "date": "07 Aug 2016",
+      "month": "Aug",
+      "year": "2016",
+      "late": 705,
+      "total": 1182
+    },
+    {
+      "date": "14 Aug 2016",
+      "month": "Aug",
+      "year": "2016",
+      "late": 611,
+      "total": 1176
+    },
+    {
+      "date": "21 Aug 2016",
+      "month": "Aug",
+      "year": "2016",
+      "late": 703,
+      "total": 1242
+    },
+    {
+      "date": "28 Aug 2016",
+      "month": "Aug",
+      "year": "2016",
+      "late": 648,
+      "total": 1194
+    },
+    {
+      "date": "04 Sep 2016",
+      "month": "Sep",
+      "year": "2016",
+      "late": 640,
+      "total": 1209
+    },
+    {
+      "date": "11 Sep 2016",
+      "month": "Sep",
+      "year": "2016",
+      "late": 685,
+      "total": 1194
+    },
+    {
+      "date": "18 Sep 2016",
+      "month": "Sep",
+      "year": "2016",
+      "late": 682,
+      "total": 1277
+    },
+    {
+      "date": "25 Sep 2016",
+      "month": "Sep",
+      "year": "2016",
+      "late": 680,
+      "total": 1184
+    },
+    {
+      "date": "02 Oct 2016",
+      "month": "Oct",
+      "year": "2016",
+      "late": 636,
+      "total": 1201
+    },
+    {
+      "date": "09 Oct 2016",
+      "month": "Oct",
+      "year": "2016",
+      "late": 601,
+      "total": 1131
+    },
+    {
+      "date": "16 Oct 2016",
+      "month": "Oct",
+      "year": "2016",
+      "late": 679,
+      "total": 1257
+    },
+    {
+      "date": "23 Oct 2016",
+      "month": "Oct",
+      "year": "2016",
+      "late": 675,
+      "total": 1229
+    },
+    {
+      "date": "30 Oct 2016",
+      "month": "Oct",
+      "year": "2016",
+      "late": 704,
+      "total": 1250
+    },
+    {
+      "date": "06 Nov 2016",
+      "month": "Nov",
+      "year": "2016",
+      "late": 666,
+      "total": 1201
+    },
+    {
+      "date": "13 Nov 2016",
+      "month": "Nov",
+      "year": "2016",
+      "late": 653,
+      "total": 1226
+    },
+    {
+      "date": "20 Nov 2016",
+      "month": "Nov",
+      "year": "2016",
+      "late": 687,
+      "total": 1188
+    },
+    {
+      "date": "27 Nov 2016",
+      "month": "Nov",
+      "year": "2016",
+      "late": 665,
+      "total": 1227
+    },
+    {
+      "date": "04 Dec 2016",
+      "month": "Dec",
+      "year": "2016",
+      "late": 657,
+      "total": 1219
+    },
+    {
+      "date": "11 Dec 2016",
+      "month": "Dec",
+      "year": "2016",
+      "late": 648,
+      "total": 1193
+    },
+    {
+      "date": "18 Dec 2016",
+      "month": "Dec",
+      "year": "2016",
+      "late": 659,
+      "total": 1179
+    },
+    {
+      "date": "25 Dec 2016",
+      "month": "Dec",
+      "year": "2016",
+      "late": 674,
+      "total": 1165
+    },
+    {
+      "date": "01 Jan 2017",
+      "month": "Jan",
+      "year": "2017",
+      "late": 658,
+      "total": 1188
+    },
+    {
+      "date": "08 Jan 2017",
+      "month": "Jan",
+      "year": "2017",
+      "late": 616,
+      "total": 1176
+    },
+    {
+      "date": "15 Jan 2017",
+      "month": "Jan",
+      "year": "2017",
+      "late": 644,
+      "total": 1196
+    },
+    {
+      "date": "22 Jan 2017",
+      "month": "Jan",
+      "year": "2017",
+      "late": 644,
+      "total": 1194
+    },
+    {
+      "date": "29 Jan 2017",
+      "month": "Jan",
+      "year": "2017",
+      "late": 628,
+      "total": 1174
+    },
+    {
+      "date": "05 Feb 2017",
+      "month": "Feb",
+      "year": "2017",
+      "late": 713,
+      "total": 1250
+    },
+    {
+      "date": "12 Feb 2017",
+      "month": "Feb",
+      "year": "2017",
+      "late": 657,
+      "total": 1187
+    },
+    {
+      "date": "19 Feb 2017",
+      "month": "Feb",
+      "year": "2017",
+      "late": 665,
+      "total": 1181
+    },
+    {
+      "date": "26 Feb 2017",
+      "month": "Feb",
+      "year": "2017",
+      "late": 668,
+      "total": 1275
+    },
+    {
+      "date": "05 Mar 2017",
+      "month": "Mar",
+      "year": "2017",
+      "late": 680,
+      "total": 1222
+    },
+    {
+      "date": "12 Mar 2017",
+      "month": "Mar",
+      "year": "2017",
+      "late": 648,
+      "total": 1214
+    },
+    {
+      "date": "19 Mar 2017",
+      "month": "Mar",
+      "year": "2017",
+      "late": 663,
+      "total": 1213
+    },
+    {
+      "date": "26 Mar 2017",
+      "month": "Mar",
+      "year": "2017",
+      "late": 683,
+      "total": 1157
+    },
+    {
+      "date": "02 Apr 2017",
+      "month": "Apr",
+      "year": "2017",
+      "late": 620,
+      "total": 1232
+    },
+    {
+      "date": "09 Apr 2017",
+      "month": "Apr",
+      "year": "2017",
+      "late": 677,
+      "total": 1221
+    },
+    {
+      "date": "16 Apr 2017",
+      "month": "Apr",
+      "year": "2017",
+      "late": 628,
+      "total": 1188
+    },
+    {
+      "date": "23 Apr 2017",
+      "month": "Apr",
+      "year": "2017",
+      "late": 657,
+      "total": 1243
+    },
+    {
+      "date": "30 Apr 2017",
+      "month": "Apr",
+      "year": "2017",
+      "late": 672,
+      "total": 1218
+    },
+    {
+      "date": "07 May 2017",
+      "month": "May",
+      "year": "2017",
+      "late": 696,
+      "total": 1245
+    },
+    {
+      "date": "14 May 2017",
+      "month": "May",
+      "year": "2017",
+      "late": 585,
+      "total": 1187
+    },
+    {
+      "date": "21 May 2017",
+      "month": "May",
+      "year": "2017",
+      "late": 626,
+      "total": 1164
+    },
+    {
+      "date": "28 May 2017",
+      "month": "May",
+      "year": "2017",
+      "late": 655,
+      "total": 1178
+    },
+    {
+      "date": "04 Jun 2017",
+      "month": "Jun",
+      "year": "2017",
+      "late": 632,
+      "total": 1252
+    },
+    {
+      "date": "11 Jun 2017",
+      "month": "Jun",
+      "year": "2017",
+      "late": 593,
+      "total": 1124
+    },
+    {
+      "date": "18 Jun 2017",
+      "month": "Jun",
+      "year": "2017",
+      "late": 637,
+      "total": 1109
+    },
+    {
+      "date": "25 Jun 2017",
+      "month": "Jun",
+      "year": "2017",
+      "late": 615,
+      "total": 1207
+    },
+    {
+      "date": "02 Jul 2017",
+      "month": "Jul",
+      "year": "2017",
+      "late": 650,
+      "total": 1187
+    },
+    {
+      "date": "09 Jul 2017",
+      "month": "Jul",
+      "year": "2017",
+      "late": 743,
+      "total": 1208
+    },
+    {
+      "date": "16 Jul 2017",
+      "month": "Jul",
+      "year": "2017",
+      "late": 635,
+      "total": 1163
+    },
+    {
+      "date": "23 Jul 2017",
+      "month": "Jul",
+      "year": "2017",
+      "late": 654,
+      "total": 1241
+    },
+    {
+      "date": "30 Jul 2017",
+      "month": "Jul",
+      "year": "2017",
+      "late": 598,
+      "total": 1157
+    },
+    {
+      "date": "06 Aug 2017",
+      "month": "Aug",
+      "year": "2017",
+      "late": 662,
+      "total": 1196
+    },
+    {
+      "date": "13 Aug 2017",
+      "month": "Aug",
+      "year": "2017",
+      "late": 618,
+      "total": 1185
+    },
+    {
+      "date": "20 Aug 2017",
+      "month": "Aug",
+      "year": "2017",
+      "late": 670,
+      "total": 1177
+    },
+    {
+      "date": "27 Aug 2017",
+      "month": "Aug",
+      "year": "2017",
+      "late": 750,
+      "total": 1250
+    },
+    {
+      "date": "03 Sep 2017",
+      "month": "Sep",
+      "year": "2017",
+      "late": 669,
+      "total": 1197
+    },
+    {
+      "date": "10 Sep 2017",
+      "month": "Sep",
+      "year": "2017",
+      "late": 601,
+      "total": 1181
+    },
+    {
+      "date": "17 Sep 2017",
+      "month": "Sep",
+      "year": "2017",
+      "late": 642,
+      "total": 1244
+    },
+    {
+      "date": "24 Sep 2017",
+      "month": "Sep",
+      "year": "2017",
+      "late": 700,
+      "total": 1190
+    },
+    {
+      "date": "01 Oct 2017",
+      "month": "Oct",
+      "year": "2017",
+      "late": 657,
+      "total": 1203
+    },
+    {
+      "date": "08 Oct 2017",
+      "month": "Oct",
+      "year": "2017",
+      "late": 273,
+      "total": 515
+    },
+    {
+      "date": "15 Oct 2017",
+      "month": "Oct",
+      "year": "2017",
+      "late": 296,
+      "total": 479
+    },
+    {
+      "date": "22 Oct 2017",
+      "month": "Oct",
+      "year": "2017",
+      "late": 245,
+      "total": 480
+    },
+    {
+      "date": "29 Oct 2017",
+      "month": "Oct",
+      "year": "2017",
+      "late": 249,
+      "total": 479
+    },
+    {
+      "date": "05 Nov 2017",
+      "month": "Nov",
+      "year": "2017",
+      "late": 266,
+      "total": 480
+    },
+    {
+      "date": "12 Nov 2017",
+      "month": "Nov",
+      "year": "2017",
+      "late": 256,
+      "total": 479
+    },
+    {
+      "date": "19 Nov 2017",
+      "month": "Nov",
+      "year": "2017",
+      "late": 264,
+      "total": 480
+    },
+    {
+      "date": "26 Nov 2017",
+      "month": "Nov",
+      "year": "2017",
+      "late": 263,
+      "total": 479
+    },
+    {
+      "date": "03 Dec 2017",
+      "month": "Dec",
+      "year": "2017",
+      "late": 278,
+      "total": 480
+    },
+    {
+      "date": "10 Dec 2017",
+      "month": "Dec",
+      "year": "2017",
+      "late": 265,
+      "total": 479
+    },
+    {
+      "date": "17 Dec 2017",
+      "month": "Dec",
+      "year": "2017",
+      "late": 270,
+      "total": 480
+    },
+    {
+      "date": "24 Dec 2017",
+      "month": "Dec",
+      "year": "2017",
+      "late": 254,
+      "total": 479
+    },
+    {
+      "date": "31 Dec 2017",
+      "month": "Dec",
+      "year": "2017",
+      "late": 260,
+      "total": 480
+    },
+    {
+      "date": "07 Jan 2018",
+      "month": "Jan",
+      "year": "2018",
+      "late": 276,
+      "total": 479
+    },
+    {
+      "date": "14 Jan 2018",
+      "month": "Jan",
+      "year": "2018",
+      "late": 278,
+      "total": 480
+    },
+    {
+      "date": "21 Jan 2018",
+      "month": "Jan",
+      "year": "2018",
+      "late": 260,
+      "total": 479
+    },
+    {
+      "date": "28 Jan 2018",
+      "month": "Jan",
+      "year": "2018",
+      "late": 272,
+      "total": 480
+    },
+    {
+      "date": "04 Feb 2018",
+      "month": "Feb",
+      "year": "2018",
+      "late": 109,
+      "total": 205
+    }
+  ]
+}
